@@ -35,19 +35,22 @@
     max-width: 440px;
     width: 100%;
     box-shadow: 0 30px 70px rgba(0,0,0,0.5);
+    box-sizing: border-box;
   }
 
   .header {
     padding: 40px 32px 24px;
     text-align: center;
     position: relative;
+    overflow: visible;
   }
 
   .header img {
-    width: 100%;
-    max-width: 260px;
+    width: auto;
+    max-width: 100%;
     height: auto;
-    display: block;
+    max-height: 140px;
+    display: inline-block;
     margin: 0 auto;
   }
 
